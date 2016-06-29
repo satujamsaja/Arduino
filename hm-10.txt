@@ -12,18 +12,23 @@ SoftwareSerial mySerial(7, 8);  // RX,TX
  * HM-10 TXD pin -> Arduino Pin 7 (RX) 
  */
 
-void setup() {  
+void setup()
+{  
   Serial.begin(9600);
   mySerial.begin(9600);
 }
 
-void loop() {  
+void loop()
+{  
   char c;
-  if (Serial.available()) {
+  if (Serial.available())
+  {
     c = Serial.read();
     mySerial.print(c);
   }
-  if (mySerial.available()) {
+  
+  if (mySerial.available())
+  {
     c = mySerial.read();
     Serial.print(c);  
   }
