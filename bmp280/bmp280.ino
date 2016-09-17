@@ -13,15 +13,18 @@
 Adafruit_BMP280 bme;
 
   
-void setup() {
+void setup()
+{
   Serial.begin(9600);
-  if (!bme.begin()) {  
+  if (!bme.begin())
+  {  
     Serial.println("Could not find a valid BMP280 sensor, check wiring!");
     while (1);
   }
 }
   
-void loop() {
+void loop()
+{
     Serial.print("---- GY BMP 280 ----------------\n");
     Serial.print("Temperature = ");
     Serial.print(bme.readTemperature());
