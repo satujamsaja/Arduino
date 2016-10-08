@@ -12,3 +12,5 @@ My arduino sketch
 7. **dht22bmp28020x4**: Sketch displaying DHT22 and GY BMP 280 in LCD 2004
 8. **lcd5110**: Nokia LCD 5110 module test sketch
 9. **dht22bmp280lcd5110**: Sketch displaying DHT22 and GY BMP 280 in Nokia 5110 LCD module
+10. **spitft1.8**: Sketch test for 1.8 SPI TFT 128x160
+11. **spitftdht22bmp280**: Sketch test for 1.8 SPI TFT 128x160 with DHT22 and GY BMP 280
