@@ -16,7 +16,7 @@ My arduino sketch
 11. **spitftdht22bmp280**: Sketch test for 1.8 SPI TFT 128x160 with DHT22 and GY BMP 280
 12. **oledi2c**: Sketch test for Oled 128x64 0.96" I2C with modified library
 13. **ds3231**: Sketch test for DS3231 module with modified library
-14. **ds3231oledi2c: Sketch digital clock using oled and DS3231 module
+14. **ds3231oledi2c**: Sketch digital clock using oled and DS3231 module
 15. **blprogram**: Sketch for controlling smartcar (WIP)
 16. **rda5807m**: Sketch test for FM radio module RDA5807m
 17. **rda5807mble**: Sketch for Android BLE controlled RDA5807m module
